@@ -1,0 +1,7 @@
+text ="aba"
+# use strip() to remove values from both sides.
+print(text.strip("a"))
+# use lstrip() to remove a value from the left side.
+print(text.lstrip("a"))
+# use rstrip to remove a value from the right side.
+print(text.rstrip("a"))
