@@ -1,0 +1,7 @@
+
+country = "China"
+print (country.isalpha())
+
+num = "123456789"
+print(num.isnumeric())
+
