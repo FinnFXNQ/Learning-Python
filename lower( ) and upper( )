@@ -1,0 +1,8 @@
+#lower()
+name = "Python".lower()
+name_1 = " PYTHON"
+print(name == name_1) # output = Fasle
+
+name = "Python".lower().strip()
+name_1 = " PYTHON".lower().strip()
+print(name == name_1) # output = True
