@@ -1,0 +1,8 @@
+name = "David Martinez"
+age = 17
+school = "Arasaka Academy"
+job = "Net-Runner"
+income = "10,000 Ediides / Month"
+
+x = (f'My name is {name} and I am {age} years old.Currently, I am studying at {school} and My111 I am a {job} with the income of {income}')
+print ( x.replace ("My111", ""))
