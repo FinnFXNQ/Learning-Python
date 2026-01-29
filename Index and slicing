@@ -1,0 +1,10 @@
+
+birth_day = "22-06-2008"
+# Extract only month and year
+print(birth_day[3:])
+# Extract only day and month
+print (birth_day[:5])
+
+# We have negative index and positive index. Negative index starts with -1, while positive index starts with 0
+
+[strt:end:step]
