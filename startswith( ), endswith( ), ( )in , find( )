@@ -1,0 +1,7 @@
+# startswith() endswith() () in return in boolean.
+year = "2026-Feb-14"
+print (year.endswith ("14")) #Output = True 
+print("3" in year) # Output = False
+
+num_1 = "001938-287711"
+print (num_1.find("7")) # Output = 9
