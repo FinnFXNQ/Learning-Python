@@ -1,0 +1,20 @@
+#Turn this "968-Maria,(D@t@ Engineer);; 27y" to this "name: Maria | role: Data Engineering | age: 27y"
+
+
+raw = "968-Maria,(D@t@ Engineer);; 27y"
+
+# 1. Remove ID
+cleaned = raw.split("-", 1)[1] # output = Maria,(D@t@ Engineer);; 27y
+
+# 2. Split name and the rest
+name_part, rest = cleaned.split(",", 1)
+name = name_part.strip()
+
+# 3. Extract and clean role
+role_part = rest.split(");")[0].replace("(", "").strip()
+role = role_part.replace("@", "a").replace("Engineer", "Engineering")
+
+# 4. Extract age
+age = rest.split(";;")[1].strip()
+
+print(f"name: {name} | role: {role} | age: {age}")
