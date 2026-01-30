@@ -1,0 +1,112 @@
+Python Numeric Types & Operations
+
+Python provides built-in numeric data types and operators that allow us to perform mathematical calculations efficiently.
+
+1. Numeric Data Types in Python
+
+There are three main numeric types in Python:
+
+1. int (Integer)
+
+Represents whole numbers (positive, negative, or zero)
+
+No decimal point
+
+a = 10
+b = -3
+c = 0
+
+2. float (Floating-point number)
+
+Represents decimal numbers
+
+Used when precision is needed
+
+x = 3.14
+y = -0.5
+z = 2.0
+
+
+⚠️ Note: Floating-point numbers may have small precision errors due to how computers store decimals.
+
+3. complex (Complex number)
+
+Represents numbers in the form a + bj
+
+j is the imaginary unit (√-1)
+
+n1 = 2 + 3j
+n2 = -1j
+
+
+2 → real part
+
+3j → imaginary part
+
+2. Arithmetic Operators in Python
+
+Python supports standard mathematical operations.
+
+Basic Arithmetic Operators
+Operator	Meaning	Example	Result
++	Addition	5 + 2	7
+-	Subtraction	5 - 2	3
+*	Multiplication	5 * 2	10
+/	Division	5 / 2	2.5
+**	Exponentiation	5 ** 2	25
+
+Example:
+
+a = 5
+b = 2
+
+print(a + b)   # 7
+print(a ** b)  # 25
+
+Floor Division Operator //
+
+Divides two numbers and rounds the result down to the nearest integer
+
+print(7 // 2)    # 3
+print(-7 // 2)   # -4
+
+
+📌 Floor division always moves toward negative infinity, not toward zero.
+
+Modulus Operator %
+
+Returns the remainder after division
+
+Commonly used to check even or odd numbers
+
+print(7 % 2)   # 1
+print(8 % 2)   # 0
+
+Even / Odd Check Example
+num = 10
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+3. Operator Behavior with Different Numeric Types
+
+If one operand is a float, the result is usually a float
+
+int + float → float
+
+int + int → int
+
+print(3 + 2)     # 5 (int)
+print(3 + 2.0)   # 5.0 (float)
+
+Summary
+
+Python has three numeric types: int, float, and complex
+
+Arithmetic operators allow basic and advanced calculations
+
+// performs floor division
+
+% returns the remainder, useful for logic like even/odd checks
