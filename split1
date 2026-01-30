@@ -1,3 +1,0 @@
-file = "123456, I am not a human , 10-11-92100"
-
-print(file.split(","))
