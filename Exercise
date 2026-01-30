@@ -1,0 +1,13 @@
+# generate a random number between 1 and 100 and check if the rsult is an even number
+
+import random
+
+# generate
+num = random.randint(1,100)
+# check
+print (num)
+result = num % 2
+
+if result == 0:
+    print ("The number is even")
+else: print ("The number is odd")
