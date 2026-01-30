@@ -1,0 +1,22 @@
+# validation 
+price = 36.2427
+price_1 = 36.00000
+
+print(price.is_integer()) # Fasle
+print(price_1.is_integer()) #True 
+
+# We use this to check validate our data and I think it is very important
+
+Total = 98.77
+print (isinstance (Total, int)) # False
+print (isinstance (Total, float)) #True
+
+#=============================================================================
+
+import random
+
+print (random.random()) # will always get different random numbers
+
+# randint (start:end)
+
+print (random.randint(21,85))
