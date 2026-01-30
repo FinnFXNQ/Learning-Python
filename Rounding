@@ -1,0 +1,18 @@
+import math 
+
+# floor , ceil , trunc are not bulit-in functions you have to import.
+# round is a built-in function.
+
+num = 47.23857291
+print (math.floor(num)) #47
+print (math.ceil(num)) #48
+print (math.trunc(num)) #47 this used to remove all the decimals
+print (round(num)) #47
+
+
+print (round(num,3)) #47.239
+
+
+# (unrelated to text above )I will try advance math function myself
+
+
