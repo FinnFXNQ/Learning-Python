@@ -1,0 +1,9 @@
+is_logged_in = bool(input("Are you logged in?: "))
+is_guess = bool(input("Are you a guess?: "))
+is_banned = bool(input("Have you been banned?: "))
+
+print (is_logged_in or is_guess == True and is_banned == False ) 
+
+
+
+#also leanred about not
